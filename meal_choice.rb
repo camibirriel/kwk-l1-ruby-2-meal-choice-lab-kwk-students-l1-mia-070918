@@ -10,7 +10,7 @@ def breakfast(food="frosted flakes")
   puts "morning is the best time for #{food}"
 end
 
-breakfast(eggs)
+breakfast("eggs")
 
 
 # Call the methods with puts and your own arguments here. Like this:
