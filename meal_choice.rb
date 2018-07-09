@@ -16,8 +16,10 @@ def lunch(food="grilled cheese")
    end
 lunch("pizza")
 
-dinner(food="salmon")
-
+def dinner(food="salmon")
+  puts "#{food} for dinner is great!"
+end
+dinner(hamburger)
 
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
